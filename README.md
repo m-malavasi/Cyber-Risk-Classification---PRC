@@ -18,7 +18,7 @@ The analysis uses breach data from the [Privacy Rights Clearinghouse](https://pr
 This script performs frequency analysis of cyber risk events, following the methodology in [Malavasi (2022)](https://doi.org/10.1016/j.insodeling the severity and frequency of incidents using various classification schemes.
 
 **Outputs:**
-- `Threshold_PRC.csv`: Threshold values for Peak Over Threshold (POT) modeling.
+- `Threshold_PRC.csv`: Threshold values for POT modeling.
 - `Covariates_Severity_PRC.csv`: Covariates related to the severity of cyber events.
 
 **Classification Schemes:**
