@@ -15,7 +15,7 @@ The analysis uses breach data from the [Privacy Rights Clearinghouse](https://pr
 
 
 ### `Frequency_Analysis_PRC.R`
-This script creates covariates for the frequency analysis of cyber risk events, following the methodology in [Malavasi (2022)](https://doi.org/10.1016/j. 
+This script creates covariates for the frequency analysis of cyber risk events, following the methodology in [Malavasi (2022)](https://doi.org/10.1016/j). 
 
 The scripts generates a series of outputs that are used later in the analysis.
 
