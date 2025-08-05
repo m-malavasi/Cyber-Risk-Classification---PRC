@@ -21,6 +21,7 @@ The code also generates Frequency covaraites for each of the following classific
 
 For more detailes on how these classificaiotn are consturcted please refr to the manuscript.
 
+Two_Sample_Test_PRC_data.R: runs the two sample test discussed in the manuscript and produces the table  
    
 
    
