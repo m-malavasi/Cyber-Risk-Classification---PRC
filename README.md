@@ -1,8 +1,14 @@
-# Cyber-Risk-Classification---PRC
 
-This repository contains code for part of the analysis presneted in the paper Cyber Risk Taxonomies: Statistical Analysis of Cybersecurity Risk Classifications.
+# Cyber Risk Classification — PRC
 
-The data required to run this code can be found at https://privacyrights.org/data-breaches
+This repository contains R code used in the analysis presented in the paper:
+
+**Cyber Risk Taxonomies: Statistical Analysis of Cybersecurity Risk Classifications**  
+by Matteo Malavasi, Gareth W. Peters, Stefan Trueck, Pavel V. Shevchenko, Jiwook Jang and Georgy Sofronov
+
+
+The code supports the statistical analysis of cybersecurity risk classifications using data from the [Privacy Rights Clearinghouse](https://privacyrights Contents
+
 
 
 # R file for main analysis
@@ -16,7 +22,7 @@ The code also generates Frequency covaraites for each of the following classific
 2. Body Classificaiton
 3. Tail Classification
 4. Fre/Sev Classification
-5. TYpe/Importance Classification
+5. Type/Importance Classification
 6. Random Classification
 
 For more detailes on how these classificaiotn are consturcted please refr to the manuscript.
