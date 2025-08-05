@@ -7,7 +7,7 @@ This repository contains R code used in the analysis presented in the paper:
 by Matteo Malavasi, Gareth W. Peters, Stefan Trueck, Pavel V. Shevchenko, Jiwook Jang and Georgy Sofronov
 
 
-The code supports the statistical analysis of cybersecurity risk classifications using data from the [Privacy Rights Clearinghouse]([https://privacyrights.org/data-breaches])
+The code supports the statistical analysis of cybersecurity risk classifications using data from the [Privacy Rights Clearinghouse](https://privacyrights.org/data-breaches)
 
 
 
