@@ -11,23 +11,29 @@ The code supports the statistical analysis of cybersecurity risk classifications
 
 
 
-# R file for main analysis
 
-Frequency_Analysis_PRC.R: this file creates the covariates used in the frequency analysis in the spirit of [Malavasi, 2022](https://doi.org/10.1016/j.insmatheco.2022.05.003). The output files are:
-1. Threshold_PRC.csv: a .csv file with the values of the "high enough" threshold for POT
-2. Covariates_Severity_PRC.csv: a file with the covariates corresponding to the severity of cyber risk events, extracted from the PRC data
+### `Frequency_Analysis_PRC.R`
+This script performs frequency analysis of cyber risk events, following the methodology in [Malavasi (2022)](https://doi.org/10.1016/j.insodeling the severity and frequency of incidents using various classification schemes.
 
-The code also generates Frequency covaraites for each of the following classifications discussed in the paper:
-1. Classification based on PRC risk types
-2. Body Classificaiton
-3. Tail Classification
-4. Fre/Sev Classification
-5. Type/Importance Classification
-6. Random Classification
+**Outputs:**
+- `Threshold_PRC.csv`: Threshold values for Peak Over Threshold (POT) modeling.
+- `Covariates_Severity_PRC.csv`: Covariates related to the severity of cyber events.
 
-For more detailes on how these classificaiotn are consturcted please refr to the manuscript.
+**Classification Schemes:**
+1. PRC Risk Types  
+2. Body Classification  
+3. Tail Classification  
+4. Frequency/Severity (Fre/Sev) Classification  
+5. Type/Importance Classification  
+6. Random Classification  
 
-Two_Sample_Test_PRC_data.R: runs the two sample test discussed in the manuscript and produces results presented in Section 5 of the Suppelementary Material. 
+Refer to the manuscript for detailed construction of these schemes.
+
+---
+
+### `Two_Sample_Test_PRC_data.R`
+This script runs two-sample statistical tests comparing distributions across classification schemes. Results are presented in **Section 5 of the Supplementary Material** of the paper.
+
    
 
    
