@@ -15,7 +15,7 @@ The analysis uses breach data from the [Privacy Rights Clearinghouse](https://pr
 
 
 ### `Frequency_Analysis_PRC.R`
-This script performs frequency analysis of cyber risk events, following the methodology in [Malavasi (2022)](https://doi.org/10.1016/j.insodeling the severity and frequency of incidents using various classification schemes.
+This script performs frequency analysis of cyber risk events, following the methodology in [Malavasi (2022)](https://doi.org/10.1016/j. 
 
 **Outputs:**
 - `Threshold_PRC.csv`: Threshold values for POT modeling.
