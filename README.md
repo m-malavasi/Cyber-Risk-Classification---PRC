@@ -15,11 +15,15 @@ The analysis uses breach data from the [Privacy Rights Clearinghouse](https://pr
 
 
 ### `Frequency_Analysis_PRC.R`
-This script performs frequency analysis of cyber risk events, following the methodology in [Malavasi (2022)](https://doi.org/10.1016/j. 
+This script creates covariates for the frequency analysis of cyber risk events, following the methodology in [Malavasi (2022)](https://doi.org/10.1016/j. 
+
+The scripts generates a series of outputs that are used later in the analysis.
 
 **Outputs:**
 - `Threshold_PRC.csv`: Threshold values for POT modeling.
-- `Covariates_Severity_PRC.csv`: Covariates related to the severity of cyber events.
+- `Covariates_Severity_PRC.csv`: Covariates related to the severity of cyber events, extracted from the PRC data.
+
+Also the scripts creates covariates uses for the frequency analysis according to differnent classification schemes.
 
 **Classification Schemes:**
 1. PRC Risk Types  
